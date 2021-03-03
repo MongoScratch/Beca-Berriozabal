@@ -52,7 +52,7 @@ if(isset($_GET['msg']) && !empty($_GET['msg'])){
     <div class="row">
         <div class="col-sm-4 form-group mb-4">
             <label for="label4">Fecha De Nacimiento</label>
-            <input type="date" class="form-control form-control-sm" id="label4" name="nacimiento" required>
+            <input type="date" class="form-control form-control-sm" id="label4" name="nacimiento" max='2017-01-01' required>
         </div>
         <div class="col-sm-8 form-group mb-4">
             <label for="label5">Correo Electronico</label>
@@ -141,7 +141,7 @@ function cargarPueblos() {
       maestria: ["Universidad Ecatepec", "UNITEC", "ETAC", "Universidad Lucerna", "Universidad Europea", "Universidad CNDI", "Corporativo Universitario México", "Universidad de Ciencias Penales", "CUNI"],
       postgrado: ["Universidad Ecatepec", "Claustro Mexicano", "Universidad de las Ciencias Panales", "Corporativo Universitario México"],
       idiomas: ["Harmon Hall", "Alianza Francesa", "Crambriedge Lexicon School", "LYCEUM", "Red Innovacion y Aprendizaje (computacion, empleabilidad, roboticas y emprendimiento)"],
-      otros: ["Escuela Tecnica de Belleza", "CEDVA Coacalco Grastonomia-Estilismo", "LYCEUM-Capacitacion para el trabajo", "Universo NET-Cursos IES, EXACER-COLBACHy curso COMIPENS","CETI-Especialidad tecnica en contabilidad, administracion, puericultura e informatica","CONAMAT Cursos de Ingreso"]
+      otros: ["Escuela Tecnica de Belleza", "CEDVA Coacalco Grastonomia-Estilismo", "LYCEUM-Capacitacion para el trabajo", "Universo NET-Cursos IES, EXACER-COLBACHy curso COMIPENS","CETI-Especialidad tecnica en contabilidad, administracion, puericultura e informatica","CONAMAT Cursos de Ingreso"],
     
     }
     
